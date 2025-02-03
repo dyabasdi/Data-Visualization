@@ -73,7 +73,7 @@ s = pd.Series(a, index =['x', 'y', 'z'])
 print(s)
 
 # read a csv
-df = pd.read_csv('./cp01/fit.csv')
+df = pd.read_csv('./files/fit.csv')
 
 # sanity checks
 df.shape
@@ -81,3 +81,6 @@ print(df.head(5))
 print(df.tail(5))
 df.info()
 df.describe()
+pd.options.display.max_rows = 200
+
+print(df)
