@@ -19,7 +19,6 @@ def main():
     "RadVel", "n_RadVel", "l_RotVel", "RotVel", "u_RotVel", "Dmag", "Sep", 
     "MultID", "MultCnt", "NoteFlag"
     ]
-    for col in col
     for line in sys.stdin:
         # remove EOL character
         line = line.rstrip('\n')
